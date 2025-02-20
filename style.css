@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: rgb(19, 19, 88);
+    padding: 0;
+     background-color: white; 
+} 
+
+img{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 100px;
+    margin-bottom: 10px;   
+}
+h1{
+    position: relative;
+    margin-top: 10px;
+}
+
+.title{
+    
+    position:relative;
+    left: 150px;
+    height: auto;
+    color: green;
+}
+.like{
+    margin: 10px;
+    margin-top: -18px;
+    width: 100%;
+    border : 8px solid rgb(181, 2, 2);
+}
+.line{
+    border: 2px solid rgb(181, 2, 2);
+    width: 95;
+    margin-top: 30px;
+}
+h2{
+    color: rgb(19, 19, 88);
+    margin-top: 70px;
+    margin-left: 10px;
+}
+.text p{
+    margin-top: 40px;
+    margin-left: 10px;
+    padding-bottom: -20px;
+}
+li{
+    display: inline;
+    padding: 0;
+    margin-left: 10px;
+   
+}
+/* .lien{
+    height: 1px;
+    margin-left: -40px;
+} */
+footer p{
+    line-height: 3px;
+    font-size: 14px;
+    color:rgb(181, 2, 2); 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form label{
+    display: block;
+    margin-top: 10px;
+    
+}
+input label{
+    text-align: left;
+    margin-left: 11%;
+}
+input , select {
+    width: 300px;
+    padding: 3px;
+    margin-top: 5px;
+    text-align: left;
+    display: block;
+    
+}
+form button{
+    width: 90px;
+    height: 30px;
+    padding: 0px;
+    margin-top: 20px;
+    background-color: #7f7c7c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
+}
+form button:hover{
+    background-color: #555;
+} 
+table{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+} 
+
+table{
+    width: 700px;
+    
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid rgb(181, 2, 2); 
+  
+}
+td{
+    border: 2px solid rgb(181, 2, 2); 
+    padding-left: 20px;
+}  
+th {
+     padding: 8px;
+    
+    text-align: left; 
+    border-right: 2px solid rgb(181, 2, 2); 
+   
+    background-color: #f2f2f2;
+}
+ 
+th:last-child, td:last-child {
+    border-right: none;
+}
+/* .tab p{
+    margin-top: 20px;
+    margin-bottom: -10px;
+    
+} */
+/* nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a{
+    color: rgb(12, 12, 62);
+    text-decoration: none;
+    text-align: left;
+    margin-left: 11%;
+}
+main{
+    padding: 20px;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+     padding: 20px 0;  
+     position: fixed; 
+    width: 100%;
+    bottom: 0;
+}
+table{
+    width: 100%;
+   
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid red;
+}
+td{
+    border: 1px solid red;
+
+}  
+th {
+     padding: 8px;
+    
+    text-align: left; 
+    border-right: 1px solid red;
+   
+}
+th{
+    background-color: #f2f2f2;
+} 
+th:last-child, td:last-child {
+    border-right: none;
+}
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+form label{
+    display: block;
+    margin-top: 10px;
+    
+}
+input label{
+    text-align: left;
+    margin-left: 11%;
+}
+form input , form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 11%;
+}
+form button{
+    width: 90px;
+    height: 30px;
+    padding: 0px;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
+}
+form button:hover{
+    background-color: #555;
+} */
